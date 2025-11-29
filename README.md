@@ -35,18 +35,18 @@ to gain experience in Python development, secure coding, and cybersecurity in ge
 ## 📖 How to Use
 1. Create a baseline
 ```bash
-python file_monitor.py create <directory>
+python hashwatch.py create <directory>
 ```
 This creates the `baseline.json` with metadata for all files inside the directory.
 
 2. You may check for changes once
 ```bash
-python file_monitor.py check <directory>
+python hashwatch.py check <directory>
 ```
 This compares the currect state of each file with the baseline and shows any changes.
 
 3. Continuous monitoring
 ```bash
-python file_monitor.py monitor <directory> [interval in seconds // default is 60]
+python hashwatch.py monitor <directory> [interval in seconds // default is 60]
 ```
 4. Stop the monitoring with `Ctrl+C`
